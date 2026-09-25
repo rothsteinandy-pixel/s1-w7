@@ -1,9 +1,9 @@
-public class Age{
+public class Age {
 
-    //No Constructor -- do you remember what this mean?
-    
-    public boolean isTeenAger(int age){
-        //remove this when you start
-        return false;
+    // No Constructor -- do you remember what this mean?
+
+    public boolean isTeenAger(int age) {
+       return 13 <= age && age <= 19;
+
     }
 }
